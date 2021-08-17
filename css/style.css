@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* İndexs */
+/* .head-bar{
+    z-index: 999;
+} */
+
+/* Head Bar */
+/* .head-bar p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #777;
+    text-align: center;
+    margin: 2.5rem;
+}
+.head-bar samp{
+    background-color: #333;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: rgba(255, 255, 255, .5);
+}
+.head-bar samp:after, .head-bar samp:before{
+    content: '`';
+} */
+
+/* Card */
+.card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card .img > img[src="img/dark-1556312644.png"]{
+    border-radius: 500%;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.card .desc > h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+.card .desc > h1:before{
+    content: 'Pâyidar';
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    z-index: -2;
+    color: red;
+}
+.card .desc > h1:after{
+    content: 'Pâyidar';
+    position: absolute;
+    left: -2%;
+    top: 1%;
+    z-index: -1;
+    color: lime;
+}
+.card .desc > p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+.card .desc hr{
+    border: none;
+    background: rgba(0, 0, 0, .8);
+    height: 1px;
+    position: relative;
+    top: -10px;
+}
+.card .links{
+    display: flex;
+    justify-content: space-around;
+}
+.card .links a{
+    color: white;
+    text-decoration: none;
+}
+.card .links i{
+    transition: 250ms all;
+}
+.card .links i:hover{
+    transform: scale(1.2);
+    color: #33373d;
+}
+
+/* Bottom Menu */
+/* .bottom-menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+.bottom-menu .links{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-menu .mobile-text{
+    display: none;
+}
+.bottom-menu .links div{
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+.bottom-menu .links i{
+    color: white;
+    font-size: 19px;
+    transition: .3s ease-in;
+}
+.bottom-menu .links div:hover{
+    background-color: rgba(0, 0, 0, .7);
+} */
+
+/* Reponsive */
+@media screen and (max-width:800px){
+    /* .bottom-menu{
+        display: none;
+    }
+    .bottom-menu .links{
+        display: block;
+        margin-top: 20px;
+    }
+    .bottom-menu .links div{
+        padding: 15px;
+        width: initial;
+        text-align: center;
+    }
+    .bottom-menu .mobile-text{
+        display: initial;
+        padding: 5px;
+        position: relative;
+        top: -7px;
+    } */
+}
